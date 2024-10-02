@@ -57,7 +57,7 @@
       </link>
       <static>true</static>
     </model>
-    <model name='cardboard_box_0'>
+    <!-- <model name='cardboard_box_0'>
       <pose frame=''>3.96847 0.977565 0.15 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -280,7 +280,7 @@
         <kinematic>0</kinematic>
         <gravity>1</gravity>
       </link>
-    </model>
+    </model> -->
 
   </world>
 </sdf>

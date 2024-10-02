@@ -11,9 +11,9 @@
   </include>
    
   <!-- Start SLAM system -->
-  <!-- <include file="$(find hector_mapping)/launch/mapping_default.launch">
+  <include file="$(find hector_mapping)/launch/mapping_default.launch">
     <arg name="odom_frame" value="world"/>
-  </include> -->
+  </include>
  
   <!-- Start GeoTIFF mapper -->
   <!-- <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch">
@@ -21,6 +21,6 @@
   </include> -->
   
   <!-- Start rviz visualization with preset config -->
-  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hector_quadrotor_demo)/rviz_cfg/indoor_slam.rviz"/> -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hector_quadrotor_demo)/rviz_cfg/indoor_slam.rviz"/>
    
 </launch>

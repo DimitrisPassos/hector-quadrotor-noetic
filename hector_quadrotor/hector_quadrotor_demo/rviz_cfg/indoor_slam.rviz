@@ -127,7 +127,7 @@ Visualization Manager:
     - Class: rviz/Camera
       Enabled: true
       Image Rendering: background and overlay
-      Image Topic: /front_cam/camera/image
+      Image Topic: /camera/rgb/image
       Name: Camera
       Overlay Alpha: 0.5
       Queue Size: 2
@@ -148,6 +148,14 @@ Visualization Manager:
       Enabled: true
       Name: Path
       Topic: /trajectory
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /goal_point
+      Name: MarkerArray
+      Namespaces:
+        "": true
+      Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
